@@ -1,0 +1,69 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+/* style for header  starts */
+header {
+    background: #022D7c;
+    width: 100vw;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+/* style for header  ends  */
+/* image  */
+.banner {
+    width: 100%;
+    height: 600px;
+    /* adding black filming like layer so text will be visible good */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(1, 21, 30, 0.5)),
+        url(../img/Industry2.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0px 100px;
+    align-items: center;
+}
+.banner h1 span {
+    font-size: 75px;
+    display: block;
+    font-weight: 600;
+}
+.banner h1 {
+    font-weight: normal;
+    font-size: 55px;
+}
+/* style for form in aside section  */
+.banner aside{
+    background: #022D7c;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    height: 400px;
+}
+.banner aside input{
+    width: 100%;
+    height: 40px;
+    margin: 5px 2px;
+    padding: 5px;
+}
+.banner aside textarea{
+    width: 100%;
+    height: 100px;
+    margin: 5px 2px;
+    padding: 5px;
+}
+.banner aside button{
+    width: 100%;
+    height: 40px;
+    /* margin: 5px 2px; */
+    /* padding: 5px; */
+    background: #00ffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
